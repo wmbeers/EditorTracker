@@ -1,0 +1,22 @@
+﻿<ESRI.Configuration xmlns="http://schemas.esri.com/Desktop/AddIns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>EditorTracker10</Name>
+  <AddInID>{42d544bb-1f30-4d62-9c0d-7570b343c8d6}</AddInID>
+  <Description>Editor Tracker Extension for ArcMap 10</Description>
+  <Version>1.1</Version>
+  <Image>Images\EditorTracker10.png</Image>
+  <Author>URS Corporation, based on code from ESRI</Author>
+  <Company>URS Corporation</Company>
+  <Date>10/8/2012</Date>
+  <Targets>
+    <Target name="Desktop" version="10.0" />
+  </Targets>
+  <AddIn language="CLR" library="EditorTracker10.dll" namespace="EditorTracker10">
+    <ArcMap>
+      <Editor>
+        <Extensions>
+          <Extension id="EditorTracker10_EditorTrackerExtension" class="EditorTrackerExtension" />
+        </Extensions>
+      </Editor>
+    </ArcMap>
+  </AddIn>
+</ESRI.Configuration>

@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "EditorTracker", "EditorTracker\EditorTracker.vbproj", "{E94AA9FA-355D-4EB4-9EBD-16C71D399324}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\Setup.vdproj", "{DE7EE11B-DB64-475C-9825-DFCD2AD33DD8}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "EditorTracker10", "EditorTracker10\EditorTracker10.vbproj", "{10461533-E577-4EFE-AFA8-97929403DFCA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E94AA9FA-355D-4EB4-9EBD-16C71D399324}.Debug|x86.ActiveCfg = Debug|x86
+		{E94AA9FA-355D-4EB4-9EBD-16C71D399324}.Release|x86.ActiveCfg = Release|x86
+		{E94AA9FA-355D-4EB4-9EBD-16C71D399324}.Release|x86.Build.0 = Release|x86
+		{DE7EE11B-DB64-475C-9825-DFCD2AD33DD8}.Debug|x86.ActiveCfg = Debug
+		{DE7EE11B-DB64-475C-9825-DFCD2AD33DD8}.Release|x86.ActiveCfg = Release
+		{DE7EE11B-DB64-475C-9825-DFCD2AD33DD8}.Release|x86.Build.0 = Release
+		{10461533-E577-4EFE-AFA8-97929403DFCA}.Debug|x86.ActiveCfg = Debug|x86
+		{10461533-E577-4EFE-AFA8-97929403DFCA}.Debug|x86.Build.0 = Debug|x86
+		{10461533-E577-4EFE-AFA8-97929403DFCA}.Release|x86.ActiveCfg = Release|x86
+		{10461533-E577-4EFE-AFA8-97929403DFCA}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
